@@ -44,7 +44,7 @@ esp_err_t esp_lcd_touch_new_i2c_gt911(const esp_lcd_panel_io_handle_t io, const 
         .lcd_cmd_bits = 16,                 \
         .flags =                            \
         {                                   \
-            .disable_controle_phase = 1,    \
+            .disable_control_phase = 1,     \
         }                                   \
     }
 
